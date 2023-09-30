@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    tools:context=".NuevoIngreso">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Nuevo ingreso"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:drawableLeft="@drawable/money"
+        android:drawableTint="#007A6F"
+        android:ems="10"
+        android:hint="Ingrese un monto"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/textoFechaIngrGast"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/date"
+        android:drawableTint="#007A6F"
+        android:ems="10"
+        android:hint="Fecha de ingreso"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#007A6F"
+                android:text="Registrar Ingreso"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnVolverIng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#007A6F"
+                android:layout_marginLeft="30dp"
+                android:text="Volver al Menú" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
