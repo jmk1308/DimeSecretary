@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "349173448363",
+    "firebase_url": "https://bddimesecretary-default-rtdb.firebaseio.com",
+    "project_id": "bddimesecretary",
+    "storage_bucket": "bddimesecretary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349173448363:android:82c032818a7bc8f3ecc1ee",
+        "android_client_info": {
+          "package_name": "com.example.dimeguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7bjeZbasNiGKEMtWzqhsLC9zJimQOeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

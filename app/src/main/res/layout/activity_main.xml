@@ -41,21 +41,21 @@
 
     <Button
         android:id="@+id/btnRegGas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="67dp"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
         android:backgroundTint="#007A6F"
-        android:text="Registros / Gastos"
+        android:text="Registros / Gastos (sin terminar)"
         android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnAnalisis"
-        android:layout_width="wrap_content"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
         android:backgroundTint="#007A6F"
-        android:text="Análisis Registros / Gastos"
+        android:text="Análisis Registros / Gastos (sin terminar)"
         android:textSize="16sp" />
 </LinearLayout>

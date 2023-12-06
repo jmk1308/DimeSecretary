@@ -19,7 +19,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/nombUserTxt"
         android:layout_width="287dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -32,7 +32,7 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/emailUserTxt"
         android:layout_width="288dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -45,7 +45,7 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passwordUserTxt"
         android:layout_width="287dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -58,7 +58,7 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/passwordUserRepeatTxt"
         android:layout_width="297dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -81,7 +81,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnCreaUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#007A6F"
